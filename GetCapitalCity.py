@@ -29,6 +29,7 @@ while True:
             countryName = jsonObj['name']
             print('The Country with Code {} is {}. The capital of the country {} is {}'.format(code, countryName, countryName, capitalCity))
         elif option_num == "0":
+            break
             exit()
         else:
             print("Please Enter a valid Option")
